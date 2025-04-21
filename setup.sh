@@ -1,4 +1,5 @@
-apt update
+sudo hostnamectl set-hostname toxa.ix.tc
+sudo apt update
 
 sudo apt install grml-rescueboot -y
 sudo wget -O /boot/grml download.grml.org/grml64-full_2022.11.iso -O grml.iso
